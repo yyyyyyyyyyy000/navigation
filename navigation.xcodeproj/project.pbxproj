@@ -12,6 +12,9 @@
 		B58C596E21F0C4D000908117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C596C21F0C4D000908117 /* Main.storyboard */; };
 		B58C597021F0C4D300908117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C596F21F0C4D300908117 /* Assets.xcassets */; };
 		B58C597321F0C4D300908117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C597121F0C4D300908117 /* LaunchScreen.storyboard */; };
+		B58C597B21F0C54300908117 /* MyViewcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C597A21F0C54300908117 /* MyViewcon.swift */; };
+		B58C597D21F0CA8100908117 /* scrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C597C21F0CA8100908117 /* scrollView.swift */; };
+		B58C598121F15FB900908117 /* page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C598021F15FB900908117 /* page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B58C596F21F0C4D300908117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58C597221F0C4D300908117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58C597421F0C4D300908117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58C597A21F0C54300908117 /* MyViewcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewcon.swift; sourceTree = "<group>"; };
+		B58C597C21F0CA8100908117 /* scrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollView.swift; sourceTree = "<group>"; };
+		B58C598021F15FB900908117 /* page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				B58C596821F0C4D000908117 /* AppDelegate.swift */,
 				B58C596A21F0C4D000908117 /* ViewController.swift */,
 				B58C596C21F0C4D000908117 /* Main.storyboard */,
+				B58C597A21F0C54300908117 /* MyViewcon.swift */,
 				B58C596F21F0C4D300908117 /* Assets.xcassets */,
 				B58C597121F0C4D300908117 /* LaunchScreen.storyboard */,
 				B58C597421F0C4D300908117 /* Info.plist */,
+				B58C598021F15FB900908117 /* page.swift */,
+				B58C597C21F0CA8100908117 /* scrollView.swift */,
 			);
 			path = navigation;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58C596B21F0C4D000908117 /* ViewController.swift in Sources */,
+				B58C597D21F0CA8100908117 /* scrollView.swift in Sources */,
 				B58C596921F0C4D000908117 /* AppDelegate.swift in Sources */,
+				B58C598121F15FB900908117 /* page.swift in Sources */,
+				B58C597B21F0C54300908117 /* MyViewcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
